@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>gazebo_ros_batteries</name>
+  <version>2.0.0</version>
+  <description>General nonlinear battery simulation plugin</description>
+
+  <author email="marton@nowtech.hu">Marton Juhasz</author>
+  <author email="gergely@nowtech.hu">Gergely Gyebroszki</author>
+  <author email="marton@nowtech.hu">Marton Juhasz</author>
+  <mantainer>Giordano Scarso</mantainer>
+
+  <license>GPL-3.0-or-later</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <buildtool_depend>rosidl_default_generators</buildtool_depend>
+  <build_depend>gazebo_dev</build_depend>
+  <build_depend>message_generation</build_depend>
+
+  <depend>rclcpp</depend>
+  <depend>gazebo_msgs</depend>
+  <depend>sensor_msgs</depend>
+  <depend>std_srvs</depend>
+  <depend>std_msgs</depend>
+  <depend>urdf</depend>
+  <depend>battery_services</depend>
+
+  <exec_depend>gazebo</exec_depend>
+  <exec_depend>message_runtime</exec_depend>
+  <exec_depend>rosidl_default_runtime</exec_depend>
+  <member_of_group>rosidl_interface_packages</member_of_group>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+
+</package>
