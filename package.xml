@@ -1,13 +1,14 @@
 <?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
   <name>gazebo_ros_batteries</name>
   <version>2.0.0</version>
   <description>General nonlinear battery simulation plugin</description>
 
+  <maintainer email="37639274+Gior26@users.noreply.github.com">Giordano Scarso</maintainer>
   <author email="marton@nowtech.hu">Marton Juhasz</author>
   <author email="gergely@nowtech.hu">Gergely Gyebroszki</author>
   <author email="marton@nowtech.hu">Marton Juhasz</author>
-  <mantainer>Giordano Scarso</mantainer>
 
   <license>GPL-3.0-or-later</license>
 
