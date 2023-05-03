@@ -5,7 +5,6 @@
  * SPDX-FileCopyrightText: ©2023 Giordano Scarso
  * SPDX-License-Identifier: GPL-3.0-or-later
 */
-//#include <algorithm>
 #include <assert.h>
 #include <functional>
 #include "rclcpp/rclcpp.hpp"

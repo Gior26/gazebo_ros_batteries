@@ -1,3 +1,10 @@
+/*
+ * Based on https://github.com/nilseuropa/gazebo_ros_battery
+ *	made by Marton Juhasz
+ *
+ * SPDX-FileCopyrightText: ©2023 Giordano Scarso
+ * SPDX-License-Identifier: GPL-3.0-or-later
+*/
 #ifndef _MOTOR_PLUGIN_H_
 #define _MOTOR_PLUGIN_H_
 
@@ -14,14 +21,9 @@
 #include <gazebo_ros/conversions/sensor_msgs.hpp>
 
 // ROS
-//#include <ros/ros.h>
 #include "rclcpp/rclcpp.hpp"
 #include <sensor_msgs/msg/battery_state.hpp>
 #include <std_msgs/msg/float32.hpp>
-
-// Custom Callback Queue
-//#include <ros/callback_queue.h>
-//#include <ros/advertise_options.h>
 
 // Boost
 #include <boost/thread.hpp>
