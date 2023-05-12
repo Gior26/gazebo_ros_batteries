@@ -52,7 +52,6 @@ install(DIRECTORY include/
   PATTERN ".svn" EXCLUDE
 )
 ament_export_include_directories(include)
-ament_export_dependencies(message_runtime)
 ament_export_dependencies(gazebo_msgs)
 ament_export_dependencies(gazebo_ros)
 ament_export_dependencies(rclcpp)
