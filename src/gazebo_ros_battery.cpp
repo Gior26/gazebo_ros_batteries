@@ -2,7 +2,7 @@
  * Based on https://github.com/nilseuropa/gazebo_ros_battery
  *	made by Marton Juhasz
  *
- * SPDX-FileCopyrightText: �2023 Giordano Scarso
+ * SPDX-FileCopyrightText: 2023 Giordano Scarso
  * SPDX-License-Identifier: GPL-3.0-or-later
 */
 #include <assert.h>
