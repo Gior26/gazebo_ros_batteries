@@ -2,7 +2,7 @@
  * Based on https://github.com/nilseuropa/gazebo_ros_battery
  *	made by Marton Juhasz
  *
- * SPDX-FileCopyrightText: ©2023 Giordano Scarso
+ * SPDX-FileCopyrightText: ï¿½2023 Giordano Scarso
  * SPDX-License-Identifier: GPL-3.0-or-later
 */
 #include <assert.h>
@@ -263,8 +263,8 @@ void GazeboRosBatteryPrivate::SetCharge(const std::shared_ptr<battery_services::
 					std::shared_ptr<battery_services::srv::SetCharge::Response> res)
 {
 	service_lock.lock();
-	discharge_ = req->charge.data;
-	//RCL_WARN_NAMED(plugin_name_, "%s: Charge set: %f", gazebo_ros_->info(), design_capacity_ + discharge_);
+	discharge_ = discharge_ + req->charge.data;
+	//RCL_WARN_NAMED(plugin_name_, "%s: Charge set: %f", gazebo_ros_->info(), discharge_ + req->charge.data);
 	service_lock.unlock();
 	//return true TODO Add exception on failure;
 }
