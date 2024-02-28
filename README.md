@@ -1,4 +1,4 @@
-This repository contains small modifications to use the [original plugin](https://github.com/nilseuropa/gazebo_ros_battery) to work
+This repository contains small modifications to use the [original plugin](https://github.com/nilseuropa/gazebo_ros_battery)
 with ROS2 Humble.
 
 # Gazebo-ROS battery plugin
